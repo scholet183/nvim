@@ -79,6 +79,11 @@ _G.packer_plugins = {
     path = "C:\\Users\\Tim\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\catppuccin",
     url = "https://github.com/catppuccin/nvim"
   },
+  harpoon = {
+    loaded = true,
+    path = "C:\\Users\\Tim\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\harpoon",
+    url = "https://github.com/ThePrimeagen/harpoon"
+  },
   ["packer.nvim"] = {
     loaded = true,
     path = "C:\\Users\\Tim\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\packer.nvim",

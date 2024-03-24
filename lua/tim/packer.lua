@@ -15,4 +15,6 @@ return require('packer').startup(function(use)
 
 use { "catppuccin/nvim", as = "catppuccin" }
 
+use { 'ThePrimeagen/harpoon' }
+
 end)
