@@ -38,4 +38,8 @@ use {
   }
 }
 
+use { 'Civitasv/cmake-tools.nvim' }
+
+use { "nvim-lua/plenary.nvim" }
+
 end)
