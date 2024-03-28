@@ -5,6 +5,8 @@ Repo for my nvim configuration files
 install ripgrep
 install fd 
 install packer 
+navigate to packer.lua
+:so and :PackerSync there
 
 //Windows
 visual studio installer for clangd 
