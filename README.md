@@ -26,5 +26,12 @@ cmake --build build
 //keymaps
 (<leader> = Spacebar)
 <leader>pf = find files
+<leader>ps = search for string
 <leader>pv = dir overview
-TODO:
+<leader>a = add file to harpoon
+control e = open harpoon
+control h = harpoon file 1
+control t = harpoon file 2
+control n = harpoon file 3
+control s = harpoon file 4
+(harpoon short cuts not the best atm)
