@@ -16,6 +16,7 @@ C:\BuildTools
 install lua newest version
 install clangd per apt
 mind to use the newest nvim version
+(sudo snap nvim --classic)
 
 //cmake
 atm cmake plugin isn't working
