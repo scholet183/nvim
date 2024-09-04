@@ -12,6 +12,13 @@ require('mason').setup({})
 require('mason-lspconfig').setup({
   handlers = {
     lsp_zero.default_setup,
+		clangd = function()
+      require('lspconfig').clangd.setup({
+        capabilities = {
+          offsetEncoding = 'utf-8',
+        },
+      })
+    end,
   },
 })
 

@@ -17,3 +17,5 @@ vim.opt.incsearch = true
 vim.opt.ignorecase = true
 vim.opt.smartcase = true
 
+vim.opt.spelllang = 'de'
+vim.opt.spell = true
