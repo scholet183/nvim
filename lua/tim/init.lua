@@ -19,3 +19,14 @@ vim.opt.smartcase = true
 
 vim.opt.spelllang = 'de'
 vim.opt.spell = true
+
+-- Lua-Funktion zum Starten von browser-sync
+function StartBrowserSync()
+  local cmd = "browser-sync start --server --files '*.html, *.css, *.js'"
+  vim.fn.jobstart(cmd, { detach = true })
+end
+
+vim.api.nvim_create_autocmd("BufNewFile", {
+    pattern = "*.htm*",
+    command = "0r ~/AppData/Local/nvim/templates/html_template.html"
+})
