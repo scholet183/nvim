@@ -99,10 +99,10 @@ _G.packer_plugins = {
     path = "C:\\Users\\scholet\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\harpoon",
     url = "https://github.com/ThePrimeagen/harpoon"
   },
-  ["live-server.nvim"] = {
+  ["live-server-nvim"] = {
     loaded = true,
-    path = "C:\\Users\\scholet\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\live-server.nvim",
-    url = "https://github.com/manzeloth/live-server.nvim"
+    path = "C:\\Users\\scholet\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\live-server-nvim",
+    url = "https://github.com/ngtuonghy/live-server-nvim"
   },
   ["lsp-zero.nvim"] = {
     loaded = true,
