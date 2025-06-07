@@ -1,5 +1,7 @@
 require("tim.remap")
 print("hi from tim")
+
+-- General settings
 vim.opt.clipboard = 'unnamedplus'
 vim.opt.completeopt = { 'menu', 'menuone', 'noselect' }
 vim.opt.mouse = 'a'
@@ -19,3 +21,6 @@ vim.opt.smartcase = true
 
 vim.opt.spelllang = 'de'
 vim.opt.spell = true
+
+-- use bright mode
+vim.opt.background = 'light'
