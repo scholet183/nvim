@@ -30,3 +30,12 @@ vim.api.nvim_create_autocmd("BufNewFile", {
     pattern = "*.htm*",
     command = "0r ~/AppData/Local/nvim/templates/html_template.html"
 })
+
+-- Neovide VFX-Modus
+vim.g.neovide_cursor_vfx_mode = "sonicboom"
+
+-- Zusätzliche Effekteinstellungen
+vim.g.neovide_cursor_vfx_particle_lifetime = 1.2
+vim.g.neovide_cursor_vfx_particle_density = 50.0
+vim.g.neovide_cursor_vfx_opacity = 200.0
+
